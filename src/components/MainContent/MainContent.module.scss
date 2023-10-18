@@ -1,0 +1,55 @@
+.mainContent {
+  padding: 0 24px;
+  grid-column: 1 / -1;
+  grid-row: 2 / span 2;
+  display: grid;
+  column-gap: 46px;
+  grid-template-columns: min-content 1fr;
+  position: relative;
+  margin: auto;
+  max-width: 640px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  .filterSection {
+    align-self: start;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 24px;
+    max-width: 250px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 46px;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 1144px;
+
+    .filterSection {
+      position: sticky;
+      width: 205px;
+      top: 90px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 46px;
+    }
+  }
+
+  @media screen and (min-width: 1207px) {
+    .filterSection {
+      width: 250px;
+    }
+  }
+}
