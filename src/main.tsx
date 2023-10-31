@@ -6,6 +6,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import "./styles/globals.scss"
+
 const router = createBrowserRouter([
   {
     path: "/",
