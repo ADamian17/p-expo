@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 0 24px;
+}
+
+.pricing-cards {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  box-shadow: 8px -8px 0 salmon;
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  align-self: normal;
+  padding: 24px;
+  gap: 24px;
+}
+
+.pricing-card-content {
+  align-self: normal;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: auto;
+}

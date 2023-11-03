@@ -1,5 +1,6 @@
 // import PressContainer from "./containers/PressContainer/PressContainer"
-import StickySectionsContainer from "./containers/StickySectionsContainer"
+// import StickySectionsContainer from "./containers/StickySectionsContainer"
+import PricingContainer from "./containers/PricingContainer"
 
 function App() {
   return (
@@ -8,16 +9,7 @@ function App() {
         hero
       </section>
 
-      <StickySectionsContainer />
-
-      <section style={{ height: 500 }}>
-        some info
-      </section>
-
-      <footer style={{ height: 800 }}>
-        footer
-      </footer>
-      {/* <PressContainer /> */}
+      <PricingContainer />
     </>
   )
 }
